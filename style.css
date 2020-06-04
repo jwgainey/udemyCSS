@@ -4,10 +4,6 @@ body {
     font-size: 18px;
 }
 
-body#idClassPage {
-    background-color: white;
-}
-
 h1 {
     font-size: 50px;
     font-family: Helvetica, Arial, sans-serif;
@@ -45,4 +41,30 @@ ol {
     padding: 40px 20px 10px;
     text-align: center;
     font-size: 1.2em;
+}
+
+/* styles for descendants */
+
+.primary-box {
+    background-color: white;
+    border: solid 10px #333;
+}
+
+.primary-box h2 {
+    font-family: Helvetica;
+}
+
+.secondary-box {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.secondary-box p {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.secondary-box p em {
+    color: #fc3fc3;
 }
