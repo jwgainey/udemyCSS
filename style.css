@@ -43,7 +43,7 @@ ol {
     font-size: 1.2em;
 }
 
-/* styles for descendants */
+/* styles for descendant selectors */
 
 .primary-box {
     background-color: white;
@@ -67,4 +67,26 @@ ol {
 
 .secondary-box p em {
     color: #fc3fc3;
+}
+
+
+/* styles for grouping selectors */
+
+#main-container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.primary-box, .secondary-box {
+    margin: 10px 10px;
+}
+
+.inside-box {
+    border: solid 1px black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    border-bottom: solid 3px red;
+    padding: 0 0 10px;
 }
