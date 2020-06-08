@@ -109,6 +109,8 @@ a#link-1:hover {
     color: white;
 }
 a#link-1:active {
-    background: #777;
-    
+    background: #777; 
 }
+
+/* styling forms */
+
